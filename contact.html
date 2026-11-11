@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo"><span>MY</span> PORTFOLIO</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="work.html">Work</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="section-heading">
+        <h1>Get In Touch</h1>
+        <p>Feel free to contact me for academic or professional opportunities.</p>
+    </div>
+
+    <section class="contact-layout">
+        <div class="card">
+            <h2>Contact Information</h2>
+
+            <div class="contact-item">
+                <strong>📧 Email</strong>
+                <a href="mailto:shaheryar4900172@cloud.neduet.edu.pk">
+                    shaheryar4900172@cloud.neduet.edu.pk
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <strong>📍 Location</strong>
+                <p>Karachi, Pakistan</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h2>Send Me a Message</h2>
+
+            <form action="shaheryar4900172@cloud.neduet.edu.pk"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="Name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="Email"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="Message"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+                <button class="btn" type="submit">Send Message →</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2026 <span>Maimoona Shaheryar</span> | Personal Portfolio
+</footer>
+
+</body>
+</html>
